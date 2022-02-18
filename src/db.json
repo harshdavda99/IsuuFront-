@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "issuetype": "Discuss",
+      "title": "Input type ",
+      "discrip": "<p>&lt;input type=\"file\" &nbsp;<strong>value=\"Images\"</strong>&gt;&lt;/input&gt;&nbsp;</p><p>Here i can't give value to the input …..</p><p>Please give me solution for that…..&nbsp;</p>",
+      "name": "harsh2021",
+      "id": 1643722476953
+    },
+    {
+      "issuetype": "Unconfirmed",
+      "title": "Signup",
+      "discrip": "<p>Use this for signup Validation…..</p>",
+      "name": "harsh2021",
+      "id": 1643722679008,
+      "images": "Screenshot from 2022-01-28 17-11-35.png"
+    },
+    {
+      "issuetype": "Solved",
+      "title": "SignUp Validation...",
+      "discrip": "<p>if (!email || !password || !re_password || !username || !user_type) {</p><p>setErrors(\"Please add all data \");</p><p>} else if (states.password !== states.re_password) {</p><p>setErrors(\"Please check New password .....\");</p><p>} else if (user) {</p><p>setErrors(\"Please enter another Email address .....\");</p><p>} else if (reptedusename) {</p><p>setErrors(</p><p>` username not available as ..... ${reptedusename.username}.....`</p><p>);</p><p>} else {</p><p>setErrors(\"\");</p><p>history(\"/\");</p><p>dispatch(Signupdata(states));</p><p>}</p>",
+      "name": "harsh",
+      "id": 1643722782591
+    }
+  ],
+  "signup": [
+    {
+      "id": 1644220166880,
+      "username": "harsh2021",
+      "user_type": "User",
+      "email": "harshdavda99@gmail.com",
+      "password": "123",
+      "re_password": "123"
+    }
+  ]
+}
